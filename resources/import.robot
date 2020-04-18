@@ -1,5 +1,7 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        ../keywords/carTypeDialog_keywords.robot
+Resource        ../keywords/addItem_keywords.robot
+Resource        ../keywords/todoTask_keywords.robot
+Resource        ../keywords/completed_keywords.robot
 Resource        ../keywords/common_keywords.robot
 Resource        ../resources/locator/web_locator.robot
